@@ -23,7 +23,7 @@ const Main = () => {
   return (
     <div className="main-container">
       <div className="overlay">
-        <h1 className="message">Welcome to Course Schedule Application</h1>
+        <h1 className="message">Welcome to Course Schedule</h1>
         <img className="course-image" src="https://cdn.dribbble.com/users/2272835/screenshots/9602204/online_register.gif" alt="welcome gif" />
         <div className="button-container">
           <button className="button" onClick={handleLoginClick}>Login</button>

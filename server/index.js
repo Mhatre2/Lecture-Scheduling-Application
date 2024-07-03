@@ -6,7 +6,7 @@ const connectDb = require("./utils/db");
 const authRoutes = require("./routes/auth");
 
 const corsOptions = {
-  origin: "http://localhost:5173",
+  origin: "http://localhost:3000",
   methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
   credential:true,     
 }
