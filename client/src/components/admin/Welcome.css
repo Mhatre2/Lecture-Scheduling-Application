@@ -1,0 +1,48 @@
+.welcome-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #b7d2fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .top-bar {
+    width: 100%;
+    background: #000000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .heading {
+    color: #4aeb31;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 8px;
+  }
+  
+  .main-content {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    min-height: 100%;
+    width: 100%;
+  }
+  
+  .instructors-container {
+    width: 40%;
+    background-color: #ac79f8;
+    color: #e85353;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .courses-container {
+    width: 60%;
+    background-color:  #32de84;
+    color: #ffffff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }

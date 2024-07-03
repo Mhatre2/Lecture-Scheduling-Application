@@ -1,0 +1,111 @@
+.container-coursesAdmin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  max-height: 550px;
+}
+
+.form-coursesAdmin {
+  width: 100%;
+  background-color: #7fdfff;
+  color: rgb(0, 0, 0);
+  border: 1px solid transparent;
+  border-radius: 15px;
+  margin: 1rem;
+  text-align: center;
+  padding: 22px;
+}
+
+.form-coursesAdmin input,
+.form-coursesAdmin select {
+  margin: 10px 0;
+  padding: 10px;
+  width: calc(100% - 20px);
+  border-radius: 5px;
+  border: 1px solid #474343;
+  box-sizing: border-box;
+}
+
+.form-coursesAdmin button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #0ebfff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.form-coursesAdmin button:hover {
+  background-color: #8d59f6;
+}
+
+.card-list-coursesAdmin {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card-coursesAdmin {
+  background-color: #ff7777;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 45%;
+  box-sizing: border-box;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card-coursesAdmin:hover {
+  transform: scale(1.05);
+}
+
+.card-coursesAdmin img {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.card-coursesAdmin .card-content {
+  padding: 10px;
+}
+
+.card-coursesAdmin h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.card-coursesAdmin p {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.card-link-coursesAdmin {
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+}
+
+.view-courses-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.view-courses-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}

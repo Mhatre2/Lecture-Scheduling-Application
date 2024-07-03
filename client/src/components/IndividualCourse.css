@@ -1,0 +1,130 @@
+
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(78, 78, 78);
+    overflow: auto;
+  }
+  
+  .top-bar {
+    width: 100%;
+    background: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .heading {
+    color: greenyellow;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  .course-name {
+    margin-bottom: 20px;
+    color: #fffdd0;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    flex: 1;
+  }
+  
+  .card-list {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  
+  .no-schedule-message {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: var(--white);
+  }
+  
+  .card {
+    background-color: hsl(62, 100%, 64%);
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: calc(45% - 20px);
+    box-sizing: border-box;
+    transition: transform 0.2s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .card:hover {
+    transform: scale(1.06);
+  }
+  
+  .card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+  }
+  
+  .card .card-content {
+    padding: 10px;
+  }
+  
+  .card h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .card p {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  .form {
+    width: 45%;
+    background-color: rgb(86, 254, 86);
+    color: rgb(85, 85, 85);
+    border: 1px solid transparent;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .form select,
+  .form input {
+    margin: 10px 0;
+    padding: 10px;
+    width: calc(100% - 20px);
+    border-radius: 5px;
+    border: 1px solid rgb(85, 85, 85);
+    box-sizing: border-box;
+  }
+  
+  .form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: orange;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .form button:hover {
+    background-color: #8f9779;
+  }
+  

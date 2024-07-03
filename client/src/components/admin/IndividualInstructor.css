@@ -1,0 +1,98 @@
+.welcome-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFFF00;
+    padding-bottom: 1rem;
+  }
+
+.top-bar-Individual{
+    width: 100%;
+    background: #000000;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.heading-Individual{
+    color: #08fe46;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .lectures-container {
+    width: 100%;
+  }
+
+  .scrollable-content {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    gap: 1rem;
+    max-height: 450px;
+    overflow-y: auto;
+  }
+  
+  .lecture-card {
+    background-color: #ef6cfe;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    width: 40%;
+    box-sizing: border-box;
+  }
+
+  .section-heading {
+    color: #000000;
+    font-size: 40px;
+    margin: 15px;
+  }
+
+  .card-heading {
+    color: #000000;
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+
+  .card-content {
+    margin-bottom: 20px;
+    font-size: 23px;
+    color: #000000;
+  }
+  
+  .course-content {
+    color: #000000;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .lecture-content {
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .date-content {
+    color: #000000;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  .location-content {
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+
+  }
+  
+  .main-content-Individual{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 10px;
+    overflow: hidden;
+    width: 100%;
+  }
+ 

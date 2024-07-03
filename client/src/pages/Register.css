@@ -1,0 +1,75 @@
+
+.form-container-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #00c6ff, #0072ff);    padding: 20px;
+  }
+  
+  .registration-gif {
+    max-width: 40%;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+  }
+  
+  .form-register {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 2rem;
+  }
+  
+  .checkbox-container-register {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .checkbox-container input {
+    margin-right: 10px;
+  }
+  
+  .button-register {
+    background-color: #0072ff;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #005bb5;
+  }
+  
+  span {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  span a {
+    color: #0072ff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  span a:hover {
+    text-decoration: underline;
+  }
+  
